@@ -14,5 +14,5 @@
 			]
 		}
 	},
-	"postCreateCommand": "bun add @biomejs/biome @tsconfig/strictest @types/bun typescript"
+	"postCreateCommand": "bun add --dev @biomejs/biome @tsconfig/strictest @types/bun typescript"
 }
