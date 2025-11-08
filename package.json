@@ -1,0 +1,11 @@
+{
+	"name": "devcontainer-boilerplate-bun",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"check": "biome check",
+		"fix": "biome check --write",
+		"tsc": "tsc --noEmit"
+	}
+}

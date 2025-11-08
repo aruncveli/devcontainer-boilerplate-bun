@@ -1,0 +1,10 @@
+{
+	"extends": "@tsconfig/strictest/tsconfig.json",
+	"compilerOptions": {
+		"noEmit": true,
+		"incremental": true,
+		"module": "nodenext",
+		"target": "esnext",
+		"moduleResolution": "nodenext"
+	}
+}
